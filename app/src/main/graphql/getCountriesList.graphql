@@ -1,0 +1,3 @@
+query GetAllCountries($code: ID!) {
+    country(code: $code)
+}
